@@ -6,6 +6,10 @@
 
 body {
     background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -13,9 +17,6 @@ body {
     border-radius: 20px;
     margin: 20px 0 0 0;
     border: 2px solid black;
-    display: block;
-    align-self: center;
-    justify-self: center;
     background-color: white;
     font-family: "Figtree", sans-serif;
     box-shadow: 7px 7px 0 black;
